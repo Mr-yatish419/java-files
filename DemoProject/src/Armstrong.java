@@ -9,7 +9,7 @@ public class Armstrong{
         int temp=1000;
         int temp2=1;
         int arm=0;
-        int cnt=0;
+        int cnt;
 
 
       //armstrong number for three digits

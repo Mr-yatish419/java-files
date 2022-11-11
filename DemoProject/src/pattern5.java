@@ -4,11 +4,10 @@ public class pattern5 {
     }
     
     static void pattern_b(int num){
-        for (int row = 1; row <= 2 * num-1; row++) {
+        for(int row = 1; row <= 2 * num-1; row++) {
             
             int totalcolinrow=row > num ? 2 * num-row: row;//N-(row-N)
-            for (int col = 1; col <= totalcolinrow; col++) {
-               
+            for(int col = 1; col <= totalcolinrow; col++){   
             
                 System.out.print(" *");
             }

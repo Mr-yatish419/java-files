@@ -1,3 +1,4 @@
+package pattern;
 public class pattern30 {
     public static void main(String[] args) {
         pattern_e(5);

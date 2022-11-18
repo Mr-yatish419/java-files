@@ -1,3 +1,4 @@
+package pattern;
 public class pattern17 {
     public static void main(String[] args) {
         pattern_f(4);
@@ -11,7 +12,7 @@ public class pattern17 {
                 System.out.print(" ");
             }
 
-
+            //opposite number of 1 2 that will be 2 1, 123 ->321
             for(int col=totalcolinrow; col > 1; col--){ 
                 System.out.print(col);
             }

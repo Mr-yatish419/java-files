@@ -1,17 +1,14 @@
-public class pattern8 {
+package pattern;
+public class pattern10 {
     public static void main(String[] args) {
-        pattern_i(5);
+        pattern_j(5);
     }
 
-    static void pattern_i(int num){
+    static void pattern_j(int num){
         for (int row= 1; row <= num; row++) {   
 
             for(int col=1;col<=num-row;col++){
-                System.out.print("  ");
-            }
-
-            for(int col=row;col > 1;col--){
-                System.out.print(" *");
+                System.out.print(" ");
             }
 
             for (int col=1 ; col <= row; col++) {
@@ -19,6 +16,6 @@ public class pattern8 {
             }
                 System.out.println();
         }
+
     }
-    
 }
